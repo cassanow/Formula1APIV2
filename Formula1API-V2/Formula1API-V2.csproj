@@ -17,4 +17,10 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.8" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Model\ConstrutorResponse.cs" />
+      <Compile Remove="Model\PilotoResponse.cs" />
+      <Compile Remove="Model\PistaResponse.cs" />
+    </ItemGroup>
+
 </Project>
