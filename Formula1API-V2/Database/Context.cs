@@ -9,7 +9,7 @@ public class Context : DbContext
     {
         
     }
-    
+
     public DbSet<Piloto> Piloto { get; set; }
 
     public DbSet<Construtor> Construtor { get; set; }

@@ -17,5 +17,5 @@ public class Piloto
     
     public int Titulos { get; set; }
 
-    public Construtor Construtor { get; set; }
+    public Construtor? Construtor { get; set; }
 }
